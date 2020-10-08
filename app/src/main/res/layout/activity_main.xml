@@ -1,121 +1,125 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <LinearLayout
+
+    <EditText
+        android:id="@+id/inputName"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Enter Your Name" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
 
-            <EditText
-                android:id="@+id/editTextTextPersonName"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:text="Enter Your Name" />
+    <TextView
+        android:id="@+id/topping"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/inputName"
+        android:layout_alignParentLeft="true"
+        android:text="TOPPING" />
 
-        </LinearLayout>
+    <CheckBox
+        android:id="@+id/whippedCream"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/topping"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:text="Whipped Cream" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical">
+    <CheckBox
+        android:id="@+id/chocolate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/whippedCream"
+        android:layout_alignParentRight="true"
+        android:layout_margin="8dp"
+        android:text="Chocolate" />
 
-            <TextView
-                android:id="@+id/topping"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="TOPPING" />
 
-            <CheckBox
-                android:id="@+id/whippedCream"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:text="Whipped Cream" />
+    <TextView
+        android:id="@+id/quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chocolate"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="8dp"
+        android:text="QUANTITY" />
 
-            <CheckBox
-                android:id="@+id/chocolate"
-                android:layout_width="match_parent"
-                android:layout_margin="8dp"
-                android:layout_height="wrap_content"
-                android:text="Chocolate" />
-        </LinearLayout>
+    <Button
+        android:id="@+id/lessButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/numeroQuantity"
+        android:layout_toLeftOf="@id/numeroQuantity"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:paddingTop="4dp"
+        android:text="-" />
 
-        <TextView
-            android:id="@+id/quantity"
-            android:layout_margin="8dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="QUANTITY" />
+    <TextView
+        android:id="@+id/numeroQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="16dp"
+        android:layout_weight="1"
+        android:text="2"
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+        />
 
-            <Button
-                android:id="@+id/plusButton"
-                android:layout_margin="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="+" />
+    <Button
+        android:id="@+id/plusButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignBottom="@id/numeroQuantity"
+        android:layout_gravity="center"
+        android:layout_toRightOf="@id/numeroQuantity"
+        android:layout_weight="1"
+        android:paddingTop="4dp"
+        android:text="+"
 
-            <TextView
-                android:id="@+id/numeroQuantity"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:text="2" />
+        />
 
-            <Button
-                android:id="@+id/lessButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="8dp"
-                android:layout_weight="1"
-                android:text="-" />
-        </LinearLayout>
+    <TextView
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="ORDER SUMMARY"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:paddingBottom="8dp"
+        android:layout_alignParentLeft="true"
+        android:layout_above="@id/orderButton"
+        />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:orientation="vertical">
+    <TextView
+        android:id="@+id/textHidden"
+        android:layout_width="match_parent"
+        android:layout_margin="8dp"
+        android:layout_height="62dp"
+        />
 
-            <TextView
-                android:id="@+id/summary"
-                android:layout_margin="8dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="ORDER SUMMARY" />
+    <Button
+        android:id="@+id/orderButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:text="ORDER"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        />
 
-            <TextView
-                android:id="@+id/textHidden"
-                android:layout_margin="8dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
 
-            <Button
-                android:id="@+id/orderButton"
-                android:layout_margin="8dp"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="ORDER" />
-        </LinearLayout>
-
-    </LinearLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</RelativeLayout>
