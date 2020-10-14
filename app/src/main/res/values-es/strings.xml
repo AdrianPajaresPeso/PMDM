@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ActividadesPMDM</string>
+    <string name="app_name">Hello Toast</string>
     <string name="order">PEDIR</string>
     <string name="order_summary">RESUMEN DE PEDIDO</string>
     <string name="plus">+</string>

@@ -1,4 +1,4 @@
-package android.example.actividadespmdm;
+package android.example.hellotoast;
 
 import org.junit.Test;
 
