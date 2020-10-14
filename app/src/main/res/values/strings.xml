@@ -1,13 +1,7 @@
 <resources>
-    <string name="app_name">PMDMActivities</string>
-    <string name="order">ORDER</string>
-    <string name="order_summary">ORDER SUMMARY</string>
-    <string name="plus">+</string>
-    <string name="cantidad">2</string>
-    <string name="less">-</string>
-    <string name="quantity">QUANTITY</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="whipped_cream">Whipped Cream</string>
-    <string name="topping">TOPPING</string>
-    <string name="hint">Enter your name</string>
+    <string name="app_name">Hello Toast</string>
+    <string name="count_initial_value">0</string>
+    <string name="button_label_toast">Toast</string>
+    <string name="button_label_count">Count</string>
+    <string name="toast_message">Hello Toast!</string>
 </resources>
