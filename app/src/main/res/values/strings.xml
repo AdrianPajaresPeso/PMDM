@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ActividadesPMDM</string>
+    <string name="app_name">PMDMActivities</string>
     <string name="order">ORDER</string>
     <string name="order_summary">ORDER SUMMARY</string>
     <string name="plus">+</string>
