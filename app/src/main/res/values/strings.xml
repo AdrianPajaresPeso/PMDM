@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">Jesuitas</string>
+    <string name="app_name" translatable="false">Jesuitas</string>
+    <string name="msgLikeIt">¡I Like It!</string>
 </resources>
