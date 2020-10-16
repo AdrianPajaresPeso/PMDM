@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hello Toast</string>
-    <string name="count_initial_value">0</string>
-    <string name="button_label_toast">Toast</string>
-    <string name="button_label_count">Count</string>
-    <string name="toast_message">Hello Toast!</string>
+    <string name="app_name">Desplazamiento de Texto</string>
+    <string name="article_subtitle">"Uno de los grandes, grandes grupos dementes ..."</string>
+    <string name="article_title">Grateful Dead: devoción ilimitada</string>
+    <string name="article_text">"Ven y únete a la fiesta todos los días"
+        cantaron Jerry García y su nueva banda en su primera canción original, "The Golden Road to Unlimited Devotion",
+        en su primer álbum, Grateful Dead. La fiesta fue en el Haight-Ashbury de San Francisco de 1965 a 1967,
+        y en otras zonas del Área de la Bahía incluyendo Palo Alto y Berkeley (1963-1965) y el Condado de Marin (1968-1972).
+        A lo largo de su carrera que abarca tres décadas, The Dead ampliaría su repertorio para incluir muchos modismos musicales diferentes,
+        y llevaría su carnaval salvaje y su séquito a ciudades de América y Europa, pero a lo largo de todo, la música de la banda
+        permanecen arraigados en lo que finalmente se llamó el "San Francisco Sound".
+\n\n
+        La música de Haight-Ashbury es especial para mí.
+        Crecí en los años sesenta, y algunos de estos artistas y músicos fueron mis héroes,
+        en el verdadero significado del término. Sacaron el cuello y literalmente arriesgaron sus vidas también
+        como medio de vida, para evocar esta música. Ninguno es más importante para mí que Grateful Dead. La locura encarnada,
+        incluso elegante. En sus filosofías, en sus búsquedas y en todos los aspectos de sus vidas,
+        encarnaban el espíritu y el alma de la Generación Hippie de los sesenta.
+\n\n
+Desde 1965, Grateful Dead ha sido un punto focal para los acidheads y los lunáticos marginales, incluyendo
+        genios, tanto dentro como fuera de la contracultura. Y mientras el Muerto tiene un merecido
+        reputación de lanzar improvisaciones tremendamente psicodélicas inspiradas en parte por
+        Thelonius Monk, Miles Davis y John Coltrane, la banda siempre ha hablado con un distintivo
+        Voz occidental americana, destilada de las raíces americanas del folk, blues, bluegrass,
+        y honky-tonk.
+
+</string>
 </resources>
