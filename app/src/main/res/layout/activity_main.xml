@@ -12,7 +12,8 @@
         android:layout_height="@android:dimen/notification_large_icon_height"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/jesuitas_logo" />
+        app:srcCompat="@drawable/jesuitas_logo"
+        android:contentDescription="@string/shoolLogoDescription" />
 
     <ImageView
         android:id="@+id/imageSchool"
@@ -45,7 +46,9 @@
         android:onClick="likeItMsg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/megusta" />
+        app:srcCompat="@drawable/megusta"
+        android:contentDescription="@string/likeIconDescription"
+        />
 
     <ImageView
         android:id="@+id/e_mailicon"
@@ -55,7 +58,8 @@
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/e_mail"
-        app:srcCompat="@drawable/email" />
+        app:srcCompat="@drawable/email"
+        android:contentDescription="@string/emailiconDescription" />
 
     <ImageView
         android:id="@+id/gpsIcon"
@@ -65,7 +69,8 @@
         app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/street"
-        app:srcCompat="@drawable/location" />
+        app:srcCompat="@drawable/location"
+        android:contentDescription="@string/gpsIconDescription" />
 
     <ImageView
         android:id="@+id/phoneIcon"
@@ -75,7 +80,8 @@
         app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/phoneNumber"
-        app:srcCompat="@drawable/phone" />
+        app:srcCompat="@drawable/phone"
+        android:contentDescription="@string/gpsIconDescription"/>
 
     <TextView
         android:id="@+id/street"

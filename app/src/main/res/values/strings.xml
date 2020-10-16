@@ -2,4 +2,8 @@
     <string name="app_name" translatable="false">Jesuitas</string>
     <string name="msgLikeIt">¡I Like It!</string>
     <string name="schoolName" translatable="false">Centro Sagrado Corazón Jesuitas</string>
+    <string name="shoolLogoDescription">School logo</string>
+    <string name="emailiconDescription">emailiconDescription</string>
+    <string name="likeIconDescription">Like icon</string>
+    <string name="gpsIconDescription">GPS Icon</string>
 </resources>
