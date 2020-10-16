@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name" translatable="false">Jesuitas</string>
     <string name="msgLikeIt">¡I Like It!</string>
+    <string name="schoolName" translatable="false">Centro Sagrado Corazón Jesuitas</string>
 </resources>
