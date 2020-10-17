@@ -14,12 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-<<<<<<< HEAD:app/src/main/java/android/example/hellotoast/MainActivity.java
 
-=======
     public void likeItMsg(View view) {
         Toast like = Toast.makeText(this, R.string.msgLikeIt, Toast.LENGTH_LONG );
         like.show();
     }
->>>>>>> Release:app/src/main/java/android/example/jesuitas/MainActivity.java
+
 }
