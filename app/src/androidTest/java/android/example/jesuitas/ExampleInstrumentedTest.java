@@ -1,4 +1,4 @@
-package android.example.actividadespmdm;
+package android.example.jesuitas;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("android.example.actividadespmdm", appContext.getPackageName());
+        assertEquals("android.example.jesuitas", appContext.getPackageName());
     }
 }

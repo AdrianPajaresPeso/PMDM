@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Hello Toast</string>
-    <string name="count_initial_value">0</string>
-    <string name="button_label_toast">Toast</string>
-    <string name="button_label_count">Count</string>
-    <string name="toast_message">Hello Toast!</string>
+
+    <string name="msgLikeIt">¡Me gusta!</string>
+    <string name="shoolLogoDescription">Logo del Instituto</string>
+    <string name="emailiconDescription">Icono de email</string>
+    <string name="likeIconDescription">Icono de like</string>
+    <string name="gpsIconDescription">Icono de GPS</string>
 </resources>
