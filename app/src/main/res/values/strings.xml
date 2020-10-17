@@ -8,6 +8,7 @@
     <string name="phoneNumber" translatable="false">941 22 17 00</string>
     <string name="direction" translatable="false">Duques de Nájera 18, 26002 Logroño</string>
 
+    
     <!--Descripciones de imagenes-->
     <string name="shoolLogoDescription">School logo</string>
     <string name="emailiconDescription">Email Icon</string>
