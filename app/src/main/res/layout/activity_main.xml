@@ -10,14 +10,14 @@
         android:id="@+id/schoolLogo"
         android:layout_width="@android:dimen/notification_large_icon_width"
         android:layout_height="@android:dimen/notification_large_icon_height"
+        android:contentDescription="@string/shoolLogoDescription"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/jesuitas_logo"
-        android:contentDescription="@string/shoolLogoDescription" />
+        app:srcCompat="@drawable/jesuitas_logo" />
 
     <ImageView
         android:id="@+id/imageSchool"
-        android:layout_width="0dp"
+        android:layout_width="match_parent"
         android:layout_height="216dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,8 +28,8 @@
         android:id="@+id/schoolName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/schoolName"
         android:layout_centerHorizontal="true"
+        android:text="@string/schoolName"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@android:color/black"
         android:textStyle="bold"
@@ -40,48 +40,43 @@
 
     <ImageView
         android:id="@+id/ilikeIt"
-        android:layout_width="100sp"
-        android:layout_height="100sp"
-        android:layout_marginBottom="4dp"
+        android:layout_width="@dimen/iconLike"
+        android:layout_height="@dimen/iconLike"
+        android:contentDescription="@string/likeIconDescription"
         android:onClick="likeItMsg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:srcCompat="@drawable/megusta"
-        android:contentDescription="@string/likeIconDescription"
-        />
+        app:srcCompat="@drawable/megusta" />
 
     <ImageView
         android:id="@+id/e_mailicon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/emailiconDescription"
         app:layout_constraintEnd_toStartOf="@+id/e_mail"
-        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/e_mail"
-        app:srcCompat="@drawable/email"
-        android:contentDescription="@string/emailiconDescription" />
+        app:srcCompat="@drawable/email" />
 
     <ImageView
         android:id="@+id/gpsIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/gpsIconDescription"
         app:layout_constraintEnd_toStartOf="@+id/street"
-        app:layout_constraintHorizontal_bias="0.467"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/street"
-        app:srcCompat="@drawable/location"
-        android:contentDescription="@string/gpsIconDescription" />
+        app:srcCompat="@drawable/location" />
 
     <ImageView
         android:id="@+id/phoneIcon"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/gpsIconDescription"
         app:layout_constraintEnd_toStartOf="@+id/phoneNumber"
-        app:layout_constraintHorizontal_bias="0.472"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/phoneNumber"
-        app:srcCompat="@drawable/phone"
-        android:contentDescription="@string/gpsIconDescription"/>
+        app:srcCompat="@drawable/phone" />
 
     <TextView
         android:id="@+id/street"
