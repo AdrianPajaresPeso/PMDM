@@ -2,4 +2,8 @@
 <resources>
 
     <string name="msgLikeIt">¡Me gusta!</string>
+    <string name="shoolLogoDescription">Logo del Instituto</string>
+    <string name="emailiconDescription">Icono de email</string>
+    <string name="likeIconDescription">Icono de like</string>
+    <string name="gpsIconDescription">Icono de GPS</string>
 </resources>
