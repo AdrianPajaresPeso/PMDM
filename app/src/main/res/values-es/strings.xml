@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+<<<<<<< HEAD
     <string name="app_name">Desplazamiento de Texto</string>
     <string name="article_subtitle">"Uno de los grandes, grandes grupos dementes ..."</string>
     <string name="article_title">Grateful Dead: devoción ilimitada</string>
@@ -26,4 +27,12 @@ Desde 1965, Grateful Dead ha sido un punto focal para los acidheads y los lunát
         y honky-tonk.
 
 </string>
+=======
+
+    <string name="msgLikeIt">¡Me gusta!</string>
+    <string name="shoolLogoDescription">Logo del Instituto</string>
+    <string name="emailiconDescription">Icono de email</string>
+    <string name="likeIconDescription">Icono de like</string>
+    <string name="gpsIconDescription">Icono de GPS</string>
+>>>>>>> Release
 </resources>
