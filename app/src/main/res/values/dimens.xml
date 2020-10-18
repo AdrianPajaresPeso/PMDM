@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-<<<<<<< HEAD
-    <dimen name="padding_regular">10dp</dimen>
-    <dimen name="line_spacing">5sp</dimen>
-=======
+
     <dimen name="iconLike">100sp</dimen>
->>>>>>> Release
+
 </resources>

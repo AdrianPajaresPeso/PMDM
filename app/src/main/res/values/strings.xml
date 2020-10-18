@@ -1,30 +1,5 @@
 <resources>
-<<<<<<< HEAD
-    <string name="app_name">Scrolling Text</string>
-    <string name="article_subtitle">“One of the Great, Great Insane Groups…”</string>
-    <string name="article_title">Grateful Dead: Unlimited Devotion</string>
-    <string name="article_text">“Come and join the party every day,”
-        sang Jerry Garcia and his new band on their first original song, “The Golden Road to Unlimited Devotion”,
-        on their first album, Grateful Dead. The party was in the Haight-Ashbury of San Francisco from 1965-1967,
-        and in other zones of the Bay Area including Palo Alto and Berkeley (1963-1965), and Marin County (1968-1972).
-        Over its career spanning three decades, the Dead would extend its repertoire to include many different musical idioms,
-        and would bring its wild carnival and entourage to cities across America and Europe, but throughout it all, the band’s music would
-        remain rooted in what was eventually called the “San Francisco Sound”.
-\n\n
-        The music of the Haight-Ashbury is special for me.
-        I grew up in the Sixties, and some of these artists and musicians were my heroes,
-        in the true meaning of the term. They stuck their necks out and literally risked their lives as well
-        as livelihoods, to conjure up this music. None are more important to me than the Grateful Dead. Insanity incarnate,
-        even graceful. In their philosophies, in their pursuits, and in every aspect of their lives,
-        they embodied the spirit and the soul of the Hippie Generation of the Sixties.
-\n\n
-Since 1965, the Grateful Dead has been a focal point for acidheads and fringe lunatics, including
-        geniuses, both inside and outside the counterculture. And while the Dead has a deserved
-        reputation for putting out wildly psychedelic improvisational jams inspired in part by
-        Thelonius Monk, Miles Davis, and John Coltrane, the band has always spoke with a distinctly
-        Western American voice, distilled from American roots of folk, blues, bluegrass,
-        and honky-tonk.</string>
-=======
+
     <!--Al ser nombre del centro no se puede ni se debe traducir
     los nombres no se traducen -->
     <string name="app_name" translatable="false">Jesuitas</string>
@@ -39,6 +14,5 @@ Since 1965, the Grateful Dead has been a focal point for acidheads and fringe lu
     <string name="shoolLogoDescription">School logo</string>
     <string name="emailiconDescription">Email Icon</string>
     <string name="likeIconDescription">Like icon</string>
-    <string name="gpsIconDescription">GPS Icon</string>
->>>>>>> Release
+
 </resources>
