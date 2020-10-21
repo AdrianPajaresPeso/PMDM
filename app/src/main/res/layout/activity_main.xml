@@ -45,7 +45,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/whipped_cream"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/topping" />
+        app:layout_constraintTop_toBottomOf="@id/topping"
+        android:layout_marginLeft="8dp" />
 
     <CheckBox
         android:id="@+id/chocolate"
@@ -55,7 +56,8 @@
         android:layout_marginTop="8dp"
         android:text="@string/chocolate"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/whippedCream" />
+        app:layout_constraintTop_toBottomOf="@id/whippedCream"
+        android:layout_marginLeft="8dp" />
 
 
     <TextView
@@ -78,6 +80,7 @@
         android:layout_marginRight="8dp"
         android:paddingTop="4dp"
         android:text="@string/less"
+        android:onClick="countDown"
         app:layout_constraintBottom_toBottomOf="@id/numeroQuantity"
         app:layout_constraintRight_toLeftOf="@id/numeroQuantity" />
 
@@ -87,6 +90,7 @@
         android:layout_height="wrap_content"
         android:paddingBottom="12dp"
         android:text="@string/cantidad"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
@@ -99,6 +103,7 @@
         android:layout_gravity="center"
         android:layout_marginLeft="8dp"
         android:paddingTop="4dp"
+        android:onClick="countUp"
         android:text="@string/plus"
         app:layout_constraintBottom_toBottomOf="@id/numeroQuantity"
         app:layout_constraintLeft_toRightOf="@id/numeroQuantity" />
@@ -125,6 +130,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginBottom="8dp"
         android:text="@string/order"
+        android:onClick="makeOrder"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"  />
