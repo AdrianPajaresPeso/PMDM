@@ -1,12 +1,10 @@
-package android.example.jesuitas;
+package android.example.actividad19;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-
-import org.w3c.dom.Text;
 
 public class Activity2 extends AppCompatActivity {
 
