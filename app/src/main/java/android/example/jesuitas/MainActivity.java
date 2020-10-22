@@ -25,9 +25,12 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Activity2.class);
         CheckBox nata  = findViewById(R.id.whippedCream);
         CheckBox chocolate  = findViewById(R.id.chocolate);
-        TextView numeroCafes = (TextView) findViewById(R.id.numeroQuantity);
-        ;
-        double price = (double) Integer.parseInt(String.valueOf(numeroCafes.getText()))*1.50;
+        TextView x = (TextView) findViewById(R.id.numeroQuantity);
+
+        Integer numeroCafes = Integer.parseInt(String.valueOf(x.getText()));
+        double price = (double) numeroCafes*1.50;
+        TextView nombre = (TextView) findViewById(R.id.inputName);
+
 
         if(nata.isChecked()){
             price = price + 0.5;
@@ -35,9 +38,26 @@ public class MainActivity extends AppCompatActivity {
         if(chocolate.isChecked()){
             price = price + 0.5;
         }
-        
+        String productos;
+        if(nata.isChecked() && chocolate.isChecked()){
+            productos= "con Nata Montada y Chocolate";
+        }else if(nata.isChecked()){
+            productos = "con Nata Montada";
+        }else if(chocolate.isChecked()){
+            productos = "con Chocolate";
+        }else{
+            if(numeroCafes>1){
+                productos ="solos";
 
-        //intent.putExtra("")
+            }else{
+                productos ="solo";
+
+            }
+        }
+        intent.putExtra("EXTRA_PRODUCTS", productos);
+        intent.putExtra("EXTRA_NAME", String.valueOf(nombre.getText()));
+        intent.putExtra("EXTRA_PRICE", String.valueOf(price));
+        intent.putExtra("EXTRA_NUMBER", String.valueOf(numeroCafes));
         startActivity(intent);
     }
 
