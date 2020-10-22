@@ -1,4 +1,4 @@
-package android.example.jesuitas;
+package android.example.actividad19;
 
 import org.junit.Test;
 
