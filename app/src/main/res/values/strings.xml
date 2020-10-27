@@ -4,4 +4,5 @@
     <string name="btnSendStr">SEND</string>
     <string name="LOG_MSG">Button clicked</string>
     <string name="message_recieved">Message Recieved</string>
+    <string name="hint1">Enter Your Message Here</string>
 </resources>
