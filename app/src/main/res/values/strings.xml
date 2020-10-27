@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name" translatable="false">Orders</string>
-    <string name="order">ORDER</string>
-    <string name="order_summary">ORDER SUMMARY</string>
-    <string name="plus">+</string>
-    <string name="cantidad">0</string>
-    <string name="less">-</string>
-    <string name="quantity">QUANTITY</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="whipped_cream">Whipped Cream</string>
-    <string name="topping">TOPPING</string>
-    <string name="hint">Enter your name</string>
+    <string name="app_name" translatable="false">Two Activities</string>
+    <string name="btnSendStr">SEND</string>
+    <string name="LOG_MSG">Button clicked</string>
+    <string name="message_recieved">Message Recieved</string>
 </resources>

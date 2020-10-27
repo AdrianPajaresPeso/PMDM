@@ -1,4 +1,4 @@
-package android.example.jesuitas;
+package android.example.codelab1_10;
 
 import org.junit.Test;
 
