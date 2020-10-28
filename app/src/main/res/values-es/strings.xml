@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Pedidos</string>
-    <string name="order">PEDIR</string>
-    <string name="order_summary">RESUMEN DE PEDIDO</string>
-    <string name="plus">+</string>
-    <string name="cantidad">0</string>
-    <string name="less">-</string>
-    <string name="quantity">CANTIDAD</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="whipped_cream">Nata Montada</string>
-    <string name="topping">INGREDIENTES</string>
-    <string name="hint">Introduce tu nombre</string>
+    <string name="app_name">Dos Actividades</string>
+    <string name="button_main">ENVIAR</string>
+    <string name="LOG_MSG">Botón clicado</string>
+    <string name="message_recieved">Mensaje Recibido</string>
+    <string name="editText_main">Introduce Aquí Tu Mensaje</string>
+    <string name="button_second">Responder</string>
+    <string name="editText_second">Introduce Aquí Tu Respuesta</string>
+    <string name="text_header_reply">Respuesta Recibida</string>
 </resources>
