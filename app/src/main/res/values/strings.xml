@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name" translatable="false">Two Activities</string>
-    <string name="btnSendStr">SEND</string>
+    <string name="button_main">SEND</string>
     <string name="LOG_MSG">Button clicked</string>
     <string name="message_recieved">Message Recieved</string>
-    <string name="hint1">Enter Your Message Here</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
 </resources>
