@@ -1,4 +1,4 @@
-package android.example.codelab1_10;
+package com.example.implicityintent;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("android.example.jesuitas", appContext.getPackageName());
+        assertEquals("com.example.implicityintent", appContext.getPackageName());
     }
 }

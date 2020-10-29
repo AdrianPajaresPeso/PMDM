@@ -1,4 +1,4 @@
-package android.example.codelab1_10;
+package com.example.implicityintent;
 
 import org.junit.Test;
 
