@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">E.1.2 Pedidos Con Intents</string>
+    <string name="order">ORDER</string>
+    <string name="order_summary">ORDER SUMMARY</string>
+    <string name="plus">+</string>
+    <string name="cantidad">0</string>
+    <string name="less">-</string>
+    <string name="quantity">QUANTITY</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="whipped_cream">Whipped Cream</string>
+    <string name="topping">TOPPING</string>
+    <string name="hint">Enter your name</string>
 </resources>

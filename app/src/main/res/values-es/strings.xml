@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E.1.2 Pedidos Con Intents</string>
+    <string name="order">PEDIR</string>
+    <string name="order_summary">RESUMEN DE PEDIDO</string>
+    <string name="plus">+</string>
+    <string name="cantidad">0</string>
+    <string name="less">-</string>
+    <string name="quantity">CANTIDAD</string>
+    <string name="chocolate">Chocolate</string>
+    <string name="whipped_cream">Nata Montada</string>
+    <string name="topping">INGREDIENTES</string>
+    <string name="hint">Introduce tu nombre</string>
+</resources>
