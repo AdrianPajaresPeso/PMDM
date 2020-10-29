@@ -1,4 +1,4 @@
-package android.example.implicitintentsreceiver;
+package android.example.e12pedidosconintents;
 
 import android.content.Context;
 
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
     public void useAppContext() {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
-        assertEquals("android.example.implicitintentsreceiver", appContext.getPackageName());
+        assertEquals("android.example.e12pedidosconintents", appContext.getPackageName());
     }
 }
