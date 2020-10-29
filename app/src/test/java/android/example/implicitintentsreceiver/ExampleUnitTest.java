@@ -1,4 +1,4 @@
-package com.example.implicityintent;
+package android.example.implicitintentsreceiver;
 
 import org.junit.Test;
 
