@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "android.example.implicitintentsreceiver"
+        applicationId "android.example.e12pedidosconintents"
         minSdkVersion 15
         targetSdkVersion 30
         versionCode 1

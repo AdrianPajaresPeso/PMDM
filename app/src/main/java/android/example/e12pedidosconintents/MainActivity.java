@@ -1,4 +1,4 @@
-package android.example.implicitintentsreceiver;
+package android.example.e12pedidosconintents;
 
 import androidx.appcompat.app.AppCompatActivity;
 
