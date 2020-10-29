@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         Integer numeroCafes = Integer.parseInt(String.valueOf(x.getText()));
         double price = (double) numeroCafes*1.50;
         TextView nombre = (TextView) findViewById(R.id.inputName);
-
+        TextView e_mail = findViewById(R.id.editTextTextEmailAddress);
 
         if(nata.isChecked()){
             price = price + 0.5;
@@ -54,6 +54,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
+        intent.putExtra("EXTRA_EMAIL",e_mail.getText().toString());
         intent.putExtra("EXTRA_PRODUCTS", productos);
         intent.putExtra("EXTRA_NAME", String.valueOf(nombre.getText()));
         intent.putExtra("EXTRA_PRICE", String.valueOf(price));
