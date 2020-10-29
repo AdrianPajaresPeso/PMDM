@@ -1,13 +1,29 @@
 <resources>
-    <string name="app_name">E.1.2 Pedidos Con Intents</string>
+    <string name="app_name" translatable="false">E.1.2 Pedidos Con Intents</string>
     <string name="order">ORDER</string>
     <string name="order_summary">ORDER SUMMARY</string>
-    <string name="plus">+</string>
-    <string name="cantidad">0</string>
-    <string name="less">-</string>
+    <string name="plus" translatable="false">+</string>
+    <string name="cantidad" translatable="false">0</string>
+    <string name="less" translatable="false">-</string>
     <string name="quantity">QUANTITY</string>
     <string name="chocolate">Chocolate</string>
     <string name="whipped_cream">Whipped Cream</string>
     <string name="topping">TOPPING</string>
     <string name="hint">Enter your name</string>
+    <string name="subjectMailto">Order Confirmation</string>
+    <string name="isIt_correct">Is it correct?</string>
+    <string name="y">Yes</string>
+    <string name="n" translatable="false">No</string>
+    <string name="toastCorrection">Correct your order</string>
+    <string name="toastEmailFailed">There is no email client installed</string>
+    <string name="yourMail">"Your email is "</string>
+    <string name="totalPrice">"Total price is "</string>
+    <string name="youOrdered">" ,you order "</string>
+    <string name="coffeWith">" coffes with "</string>
+    <string name="withCreamAndChocolate">with Wipped Cream and Chocolate</string>
+    <string name="withCream">with Wipped Cream</string>
+    <string name="withChocolate">with Chocolate</string>
+    <string name="without">without Toppins</string>
+    <string name="without_single">without Toppins</string>
+    <string name="emailHint">Enter here your email address</string>
 </resources>

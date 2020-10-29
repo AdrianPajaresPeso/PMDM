@@ -7,18 +7,23 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private int numberOfProducts = 0;
     private TextView mShowCount;
+    Activity2 a2 = new Activity2();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mShowCount = (TextView) findViewById(R.id.numeroQuantity);
     }
-
+    private void remakeOrderInfo(){
+        
+    }
 
     public void makeOrder(View view) {
 
@@ -40,17 +45,17 @@ public class MainActivity extends AppCompatActivity {
         }
         String productos;
         if(nata.isChecked() && chocolate.isChecked()){
-            productos= "con Nata Montada y Chocolate";
+            productos= getString(R.string.withCreamAndChocolate);
         }else if(nata.isChecked()){
-            productos = "con Nata Montada";
+            productos = getString(R.string.withCream);
         }else if(chocolate.isChecked()){
-            productos = "con Chocolate";
+            productos = getString(R.string.withChocolate);
         }else{
             if(numeroCafes>1){
-                productos ="solos";
+                productos =getString(R.string.without);
 
             }else{
-                productos ="solo";
+                productos =getString(R.string.without_single);
 
             }
         }
