@@ -1,8 +1,10 @@
 package android.example.e12pedidosconintents;
 
+import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.CheckBox;
@@ -13,7 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     private int numberOfProducts = 0;
     private TextView mShowCount;
-    Activity2 a2 = new Activity2();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,9 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         mShowCount = (TextView) findViewById(R.id.numeroQuantity);
     }
-    private void remakeOrderInfo(){
-        
-    }
+
 
     public void makeOrder(View view) {
 
