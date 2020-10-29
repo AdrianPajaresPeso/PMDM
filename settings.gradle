@@ -1,2 +1,2 @@
 include ':app'
-rootProject.name = "Jesuitas"
+rootProject.name = "Implicit Intents Receiver"
