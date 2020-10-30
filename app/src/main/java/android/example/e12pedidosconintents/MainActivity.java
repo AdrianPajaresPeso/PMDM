@@ -24,24 +24,34 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    /**
+     * Metodo que se encarga de recoger toda la información
+     * de la actividad principal y pasarla a la actividad secundaria
+     * */
     public void makeOrder(View view) {
 
+        //rescursos que se van a utilizar
         Intent intent = new Intent(this, Activity2.class);
         CheckBox nata  = findViewById(R.id.whippedCream);
         CheckBox chocolate  = findViewById(R.id.chocolate);
         TextView x = (TextView) findViewById(R.id.numeroQuantity);
 
+        //valores para calculo
         Integer numeroCafes = Integer.parseInt(String.valueOf(x.getText()));
         double price = (double) numeroCafes*1.50;
         TextView nombre = (TextView) findViewById(R.id.inputName);
         TextView e_mail = findViewById(R.id.editTextTextEmailAddress);
 
+        //si la nata está checada se le añade 0.5 por café pedido
         if(nata.isChecked()){
-            price = price + 0.5;
+            price += (0.5*numeroCafes);
         }
+        //si el chocolate está checada se le añade 0.5 por cafe pedido
         if(chocolate.isChecked()){
-            price = price + 0.5;
+            price += (0.5*numeroCafes);
         }
+
+        //se define el string dependiendo de los toppings elegidos
         String productos;
         if(nata.isChecked() && chocolate.isChecked()){
             productos= getString(R.string.withCreamAndChocolate);
@@ -58,6 +68,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         }
+
+        //se preparan los datos y se pasan a la siguiente actividad
         intent.putExtra("EXTRA_EMAIL",e_mail.getText().toString());
         intent.putExtra("EXTRA_PRODUCTS", productos);
         intent.putExtra("EXTRA_NAME", String.valueOf(nombre.getText()));
@@ -66,14 +78,22 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    /**
+     * Funcion que hace que el contador de cafes suba
+     * */
     public void countUp(View view) {
         ++numberOfProducts;
         if ( mShowCount!= null) {
             mShowCount.setText(Integer.toString(numberOfProducts));
         }
     }
+
+
+    /**
+     * Funcion que hace que el contador de cafes baje
+     * */
     public void countDown(View view) {
-        ++numberOfProducts;
+        --numberOfProducts;
         if (mShowCount != null) {
             mShowCount.setText(Integer.toString(numberOfProducts));
         }

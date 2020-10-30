@@ -30,6 +30,10 @@ public class Activity2 extends AppCompatActivity {
         
     }
 
+    /**
+     * Funcion que se encarga de cuando se destruya la
+     * actividad, mostrar un toast
+     * */
     @Override
     protected void onDestroy() {
         super.onDestroy();
@@ -40,7 +44,7 @@ public class Activity2 extends AppCompatActivity {
      * Función que vuelve a la actividad principal mostrando un toast
      * */
     public void returnToMain(View view){
-        super.onBackPressed();
+        this.finish();
 
     }
 
@@ -63,9 +67,11 @@ public class Activity2 extends AppCompatActivity {
         sendIntent.putExtra(Intent.EXTRA_EMAIL, addresses);
         sendIntent.putExtra(Intent.EXTRA_SUBJECT, subject);
 
+        //si existe una app en el dispositivo le mandamos los datos¡
         if(sendIntent.resolveActivity(getPackageManager()) != null){
             startActivity(sendIntent);
         }else{
+            //si no existe le mostramos un toast
             Toast.makeText(this, R.string.toastEmailFailed, Toast.LENGTH_SHORT).show();
         }
 
