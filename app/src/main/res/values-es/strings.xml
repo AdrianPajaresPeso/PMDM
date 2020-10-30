@@ -28,5 +28,7 @@
     <string name="withChocolate">con Chocolate</string>
     <string name="without_single" translatable="false">solos</string>
     <string name="emailHint">Introduce Tu direccion de email</string>
+    <string name="toastPreOrder0">Debes comprar algun cafe para continuar</string>
+    <string name="toastPreOrder1">Por favor, completa tus datos</string>
 
 </resources>

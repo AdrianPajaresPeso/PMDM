@@ -32,5 +32,7 @@
     <string name="without">without Toppins</string>
     <string name="without_single">without Toppins</string>
     <string name="emailHint">Enter here your email address</string>
-    
+    <string name="toastPreOrder0">You must to buy some coffes</string>
+    <string name="toastPreOrder1">Please, complete your data</string>
+
 </resources>
