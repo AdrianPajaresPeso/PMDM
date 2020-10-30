@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="order">PEDIR</string>
+
+    <!--Seccion de actividad Principal-->
     <string name="order_summary">RESUMEN DE PEDIDO</string>
     <string name="quantity">CANTIDAD</string>
     <string name="chocolate">Chocolate</string>
     <string name="whipped_cream">Nata Montada</string>
     <string name="topping">INGREDIENTES</string>
     <string name="hint">Introduce tu nombre</string>
+
+
+
+    <!--Seccion de actividad secundaria-->
     <string name="subjectMailto">Confirmacion de Pedido</string>
     <string name="isIt_correct">¿Es correcto?</string>
     <string name="y">Sí</string>
@@ -15,12 +21,14 @@
     <string name="yourMail">"Tu email es "</string>
     <string name="totalPrice">"El precio total es "</string>
     <string name="youOrdered">", has pedido "</string>
-    <string name="coffeWith">" cafés con"</string>
+    <string name="coffeWith">" cafés "</string>
     <string name="without">solos</string>
     <string name="withCreamAndChocolate">con Nata Montada y Chocolate</string>
     <string name="withCream">con Nata Montada</string>
     <string name="withChocolate">con Chocolate</string>
     <string name="without_single" translatable="false">solos</string>
     <string name="emailHint">Introduce Tu direccion de email</string>
+    <string name="toastPreOrder0">Debes comprar algun cafe para continuar</string>
+    <string name="toastPreOrder1">Por favor, completa tus datos</string>
 
 </resources>
