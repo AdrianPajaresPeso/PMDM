@@ -1,2 +1,1 @@
 include ':app'
-rootProject.name = "E.1.2 Pedidos Con Intents"
