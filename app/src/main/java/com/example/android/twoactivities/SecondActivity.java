@@ -35,6 +35,7 @@ public class SecondActivity extends AppCompatActivity {
 
     // EditText for the reply.
     private EditText mReply;
+    private static final String LOG_TAG = SecondActivity.class.getSimpleName();
 
     /**
      * Initializes the activity.
