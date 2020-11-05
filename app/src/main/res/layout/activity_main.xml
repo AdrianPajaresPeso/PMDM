@@ -1,134 +1,75 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<!--
+  ~ Copyright (C) 2018 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context="com.example.android.twoactivities.MainActivity">
 
-    <EditText
-        android:id="@+id/inputName"
-        android:layout_width="match_parent"
+    <TextView
+        android:id="@+id/text_header_reply"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/marginEditText"
-        android:layout_marginTop="@dimen/marginEditText"
-        android:layout_marginEnd="@dimen/marginEditText"
-        android:layout_marginBottom="@dimen/marginEditText"
-        android:ems="10"
-        android:hint="@string/hint"
-        android:inputType="textPersonName"
-        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/text_header_reply"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textStyle="bold"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <TextView
-        android:id="@+id/topping"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/topping"
-        android:layout_marginLeft="@dimen/marginEditText"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
-
-    <CheckBox
-        android:id="@+id/chocolate"
+        android:id="@+id/text_message_reply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/marginEditText"
-        android:layout_marginLeft="@dimen/marginEditText"
-        android:layout_marginTop="4dp"
-        android:text="@string/chocolate"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:visibility="invisible"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/whippedCream" />
-
-    <CheckBox
-        android:id="@+id/whippedCream"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/marginEditText"
-        android:layout_marginLeft="@dimen/marginEditText"
-        android:layout_marginTop="16dp"
-        android:text="@string/whipped_cream"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/topping" />
-
-
-    <TextView
-        android:id="@+id/quantity"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="@dimen/marginEditText"
-        android:layout_marginBottom="@dimen/marginEditText"
-        android:text="@string/quantity"
-        app:layout_constraintBottom_toTopOf="@id/lessButton"
-        app:layout_constraintLeft_toLeftOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/text_header_reply" />
 
     <Button
-        android:id="@+id/plusButton"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:layout_marginLeft="@dimen/marginEditText"
-        android:onClick="countUp"
-        android:paddingTop="4dp"
-        android:text="@string/plus"
-        app:layout_constraintBottom_toBottomOf="@id/numeroQuantity"
-        app:layout_constraintLeft_toRightOf="@id/numeroQuantity" />
-
-    <TextView
-        android:id="@+id/numeroQuantity"
+        android:id="@+id/button_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:paddingBottom="12dp"
-        android:text="@string/cantidad"
+        android:layout_marginBottom="16dp"
+        android:layout_marginRight="16dp"
+        android:text="@string/button_main"
+        android:onClick="launchSecondActivity"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.616" />
-
-    <Button
-        android:id="@+id/lessButton"
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_gravity="center"
-        android:layout_marginRight="@dimen/marginEditText"
-        android:onClick="countDown"
-        android:paddingTop="4dp"
-        android:text="@string/less"
-        app:layout_constraintBottom_toBottomOf="@id/numeroQuantity"
-        app:layout_constraintRight_toLeftOf="@id/numeroQuantity" />
-
-    <Button
-        android:id="@+id/orderButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/marginEditText"
-        android:layout_marginTop="@dimen/marginEditText"
-        android:layout_marginEnd="@dimen/marginEditText"
-        android:layout_marginBottom="@dimen/marginEditText"
-        android:onClick="makeOrder"
-        android:text="@string/order"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextEmailAddress"
+        android:id="@+id/editText_main"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/marginEditText"
-        android:layout_marginTop="@dimen/marginEditText"
-        android:layout_marginEnd="@dimen/marginEditText"
-        android:layout_marginBottom="@dimen/marginEditText"
-        android:inputType="textEmailAddress"
-        android:hint="@string/emailHint"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/inputName" />
-
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:ems="10"
+        android:hint="@string/editText_main"
+        android:inputType="textLongMessage"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button_main"
+        app:layout_constraintStart_toStartOf="parent" />
+</android.support.constraint.ConstraintLayout>
