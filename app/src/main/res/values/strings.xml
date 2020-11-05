@@ -1,38 +1,25 @@
+<!--
+  ~ Copyright (C) 2018 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
 <resources>
-    <string name="app_name" translatable="false">E.1.2 Pedidos Con Intents</string>
-
-
-    <!--Seccion de actividad Principal-->
-    <string name="order">ORDER</string>
-    <string name="order_summary">ORDER SUMMARY</string>
-    <string name="plus" translatable="false">+</string>
-    <string name="cantidad" translatable="false">0</string>
-    <string name="less" translatable="false">-</string>
-    <string name="quantity">QUANTITY</string>
-    <string name="chocolate">Chocolate</string>
-    <string name="whipped_cream">Whipped Cream</string>
-    <string name="topping">TOPPING</string>
-    <string name="hint">Enter your name</string>
-
-
-    <!--Seccion de actividad secundaria-->
-    <string name="subjectMailto">Order Confirmation</string>
-    <string name="isIt_correct">Is it correct?</string>
-    <string name="y">Yes</string>
-    <string name="n" translatable="false">No</string>
-    <string name="toastCorrection">Correct your order</string>
-    <string name="toastEmailFailed">There is no email client installed</string>
-    <string name="yourMail">"Your email is "</string>
-    <string name="totalPrice">"Total price is "</string>
-    <string name="youOrdered">" ,you order "</string>
-    <string name="coffeWith">" coffes "</string>
-    <string name="withCreamAndChocolate">with Wipped Cream and Chocolate</string>
-    <string name="withCream">with Wipped Cream</string>
-    <string name="withChocolate">with Chocolate</string>
-    <string name="without">without Toppins</string>
-    <string name="without_single">without Toppins</string>
-    <string name="emailHint">Enter here your email address</string>
-    <string name="toastPreOrder0">You must to buy some coffes</string>
-    <string name="toastPreOrder1">Please, complete your data</string>
-
+    <string name="app_name">Two Activities</string>
+    <string name="button_main">Send</string>
+    <string name="editText_main">Enter Your Message Here</string>
+    <string name="text_header">Message Received</string>
+    <string name="button_second">Reply</string>
+    <string name="editText_second">Enter Your Reply Here</string>
+    <string name="text_header_reply">Reply Received</string>
 </resources>
