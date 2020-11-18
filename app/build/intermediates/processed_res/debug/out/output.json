@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "applicationId": "android.example.e12pedidosconintents",
+  "applicationId": "android.example.droidcafe",
   "variantType": "BASE_APK",
   "elements": [
     {
@@ -19,7 +19,7 @@
       },
       "path": "resources-debug.ap_",
       "properties": {
-        "packageId": "android.example.e12pedidosconintents",
+        "packageId": "android.example.droidcafe",
         "split": "",
         "minSdkVersion": "15"
       }

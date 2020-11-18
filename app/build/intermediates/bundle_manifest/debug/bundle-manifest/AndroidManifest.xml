@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="android.example.e12pedidosconintents"
+    package="android.example.droidcafe"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -18,9 +18,11 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="android.example.e12pedidosconintents.Activity2" >
-        </activity>
-        <activity android:name="android.example.e12pedidosconintents.MainActivity" >
+        <activity android:name="android.example.droidcafe.OrderActivity" />
+        <activity
+            android:name="android.example.droidcafe.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
