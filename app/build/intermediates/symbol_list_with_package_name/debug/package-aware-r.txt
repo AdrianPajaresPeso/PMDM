@@ -1888,6 +1888,8 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id prueba1
+id prueba2
 id radio
 id ratio
 id rectangles
