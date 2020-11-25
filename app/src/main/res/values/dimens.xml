@@ -1,5 +1,0 @@
-<resources>
-    <dimen name="fab_margin">16dp</dimen>
-    <dimen name="editText_dp">8dp</dimen>
-    <dimen name="textView_dp">24dp</dimen>
-</resources>
