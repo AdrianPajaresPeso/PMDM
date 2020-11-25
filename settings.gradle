@@ -1,1 +1,2 @@
 include ':app'
+rootProject.name = "Dialog 4 Alert"
