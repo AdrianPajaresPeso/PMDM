@@ -24,7 +24,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Usuario\AppData\Local\Temp\baseline_shopping_cart_24.xml" />
+                                                <entry key="imagePath" value="C:\Users\Usuario\AppData\Local\Temp\baseline_done_24.xml" />
                                                 <entry key="opacityPercent" value="60" />
                                                 <entry key="paddingPercent" value="10" />
                                               </map>
@@ -37,7 +37,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/shopping_cart/baseline_shopping_cart_24.xml" />
+                                                <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material/icons/materialicons/done/baseline_done_24.xml" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -69,7 +69,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="outputName" value="ic_shoping_cart" />
+                                      <entry key="outputName" value="ic_action_popup" />
                                     </map>
                                   </option>
                                 </PersistentState>
