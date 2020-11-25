@@ -1,29 +1,22 @@
-ScrollingText - Solution Code
-=============================
+SimpleCalc - Starter Code
+=========================
 
-The Scrolling Text app demonstrates the ScrollView UI component.
-
-Introduction
-------------
-
-The app shows how to use a ScrollView to display text. The user can
-scroll vertically to read by swiping up and down. The app shows how
-you can use text formatted with minimal HTML tags for setting text
-to bold or italic, and with new-line characters to separate paragraphs.
-You can also include active web links in the text.
+SimpleCalc is a simple calculator app, with a handful of problems. This
+app is used to explore the Android Studio debugger. It's also the basis
+for learning about unit testing in SimpleCalcTest.
 
 Pre-requisites
 --------------
 
-You need to know:
-
-- How to open, build, and run apps in Android Studio.
-- How to open and edit an XML layout file.
+For this app you should be familiar with: 
+* Creating an Android Studio project, and working with EditText and Button views.
+* Building and running your app in Android Studio, in both an emulator and on a device.
+* Adding log statements and viewing the system log (logcat) in Android Monitor.
 
 Getting Started
 ---------------
 
-1. Download and run the app.
+1. Download and open this sample in Android Studio.
 
 License
 -------
