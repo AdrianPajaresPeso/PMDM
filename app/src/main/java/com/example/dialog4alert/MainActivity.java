@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
+    final static String[] opciones = {"ACDC","Iron Maiden","Motionless In White","Guns & Roses"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -20,20 +21,15 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog.Builder myAlertBuilder = new AlertDialog.Builder(MainActivity.this);
 
         myAlertBuilder.setTitle("Alert");
-        myAlertBuilder.setMessage("Click OK to continue, or Cancel to Stop");
+        //myAlertBuilder.setMessage("Click OK to continue, or Cancel to Stop");
+        myAlertBuilder.setItems(opciones, new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(getApplicationContext(), opciones[which]+" selected",Toast.LENGTH_SHORT).show();
+            }
+        });
 
-        myAlertBuilder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getApplicationContext(), "Pressed OK", Toast.LENGTH_SHORT).show();
-            }
-        });
-        myAlertBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(getApplicationContext(), "Pressed Cancel", Toast.LENGTH_SHORT).show();
-            }
-        });
+
         myAlertBuilder.show();
     }
 
