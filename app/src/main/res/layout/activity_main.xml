@@ -4,15 +4,66 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"   >
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:theme="@style/Theme.E21Pedidos"
+        /><!-- start Cafe Solo controles y texto-->
     <TextView
+        android:id="@+id/cafeSolo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="CafeSolo"
+        app:layout_constraintBottom_toBottomOf="@+id/btnMenosSolo"
+        app:layout_constraintEnd_toStartOf="@+id/btnMenosSolo"
+        app:layout_constraintHorizontal_bias="0.317"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnMenosSolo"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <Button
+        android:id="@+id/btnMasSolo"
+        android:layout_width="@dimen/btnTamanio"
+        android:layout_height="@dimen/btnTamanio"
+        android:layout_marginEnd="48dp"
+        android:layout_marginRight="48dp"
+        android:text="@string/plusBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/numCafeSolo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/numCafeSolo"
+        app:layout_constraintVertical_bias="0.333" />
+
+    <Button
+        android:id="@+id/btnMenosSolo"
+        android:layout_width="@dimen/btnTamanio"
+        android:layout_height="@dimen/btnTamanio"
+        android:layout_marginEnd="28dp"
+        android:layout_marginRight="28dp"
+        android:text="@string/lessBtn"
+        app:layout_constraintBottom_toBottomOf="@+id/numCafeSolo"
+        app:layout_constraintEnd_toStartOf="@+id/numCafeSolo"
+        app:layout_constraintTop_toTopOf="@+id/numCafeSolo"
+        app:layout_constraintVertical_bias="0.38" />
+
+    <TextView
+        android:id="@+id/numCafeSolo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toStartOf="@+id/btnMasSolo"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.198" />
+    <!-- end Cafe Solo controles y texto-->
 
 </androidx.constraintlayout.widget.ConstraintLayout>
