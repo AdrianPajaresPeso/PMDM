@@ -4,66 +4,161 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"   >
+    tools:context=".MainActivity">
 
-    <androidx.appcompat.widget.Toolbar
+   <!-- <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolBar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?attr/colorPrimary"
         android:minHeight="?attr/actionBarSize"
+        android:theme="@style/Theme.E21Pedidos"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:theme="@style/Theme.E21Pedidos"
-        /><!-- start Cafe Solo controles y texto-->
+        app:title="@string/app_name"
+        />-->
+
+    <!-- start Cafe Con Leche controles y texto-->
+    <TextView
+        android:id="@+id/cafeConLeche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="Café CON LECHE"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnMenosConLeche"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnMasConleche"
+        android:layout_width="@dimen/btnTamanio"
+        android:layout_height="@dimen/btnTamanio"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/plusBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/numCafeConLeche"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="countPlusConLeche"/>
+
+    <Button
+        android:id="@+id/btnMenosConLeche"
+        android:layout_width="@dimen/btnTamanio"
+        android:layout_height="@dimen/btnTamanio"
+        android:layout_marginStart="64dp"
+        android:layout_marginLeft="64dp"
+        android:text="@string/lessBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnMasConleche"
+        app:layout_constraintStart_toEndOf="@+id/cafeConLeche"
+        android:onClick="countLessConLeche"/>
+
+    <TextView
+        android:id="@+id/numCafeConLeche"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="0"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnMasConleche"
+        app:layout_constraintStart_toEndOf="@+id/btnMenosConLeche"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!-- end of Cafe con Leche-->
+
+    <!-- start of Cafe solo-->
     <TextView
         android:id="@+id/cafeSolo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CafeSolo"
-        app:layout_constraintBottom_toBottomOf="@+id/btnMenosSolo"
-        app:layout_constraintEnd_toStartOf="@+id/btnMenosSolo"
-        app:layout_constraintHorizontal_bias="0.317"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/btnMenosSolo"
-        app:layout_constraintVertical_bias="0.38" />
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="Café solo"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnMenosSolo3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnMenosSolo3"
+        android:layout_width="@dimen/btnTamanio"
+        android:layout_height="@dimen/btnTamanio"
+        android:layout_marginStart="112dp"
+        android:layout_marginLeft="112dp"
+        android:text="@string/lessBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/numCafeSolo"
+        app:layout_constraintStart_toEndOf="@+id/cafeSolo"
+        android:onClick="countLessSolo"/>
 
     <Button
         android:id="@+id/btnMasSolo"
         android:layout_width="@dimen/btnTamanio"
         android:layout_height="@dimen/btnTamanio"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
         android:text="@string/plusBtn"
-        app:layout_constraintBottom_toBottomOf="@+id/numCafeSolo"
+        app:layout_constraintBaseline_toBaselineOf="@+id/numCafeSolo"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/numCafeSolo"
-        app:layout_constraintVertical_bias="0.333" />
+        android:onClick="countPlusSolo"/>
 
-    <Button
-        android:id="@+id/btnMenosSolo"
-        android:layout_width="@dimen/btnTamanio"
-        android:layout_height="@dimen/btnTamanio"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:text="@string/lessBtn"
-        app:layout_constraintBottom_toBottomOf="@+id/numCafeSolo"
-        app:layout_constraintEnd_toStartOf="@+id/numCafeSolo"
-        app:layout_constraintTop_toTopOf="@+id/numCafeSolo"
-        app:layout_constraintVertical_bias="0.38" />
+    <!-- end Cafe Solo controles y texto-->
 
+
+    <!-- Start of Cafe cortado-->
     <TextView
         android:id="@+id/numCafeSolo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="32dp"
-        android:layout_marginRight="32dp"
+        android:text="0"
+        app:layout_constraintBottom_toTopOf="@+id/numCafeConLeche"
+        app:layout_constraintEnd_toStartOf="@+id/btnMasSolo"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@+id/btnMenosSolo3"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.601" />
+
+    <TextView
+        android:id="@+id/cafeCortado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="52dp"
+        android:layout_marginLeft="52dp"
+        android:text="Cafe Cortado"
+        app:layout_constraintBaseline_toBaselineOf="@+id/btnMenosCortado"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnMenosCortado"
+        android:layout_width="@dimen/btnTamanio"
+        android:layout_height="@dimen/btnTamanio"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:text="@string/lessBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/numCafeCortado"
+        app:layout_constraintStart_toEndOf="@+id/cafeCortado"
+        android:onClick="cuntLessCortado"/>
+
+    <TextView
+        android:id="@+id/numCafeCortado"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+
         android:text="0"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/btnMasSolo"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.198" />
-    <!-- end Cafe Solo controles y texto-->
+        app:layout_constraintEnd_toStartOf="@+id/btnMasCortado"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@+id/btnMenosCortado"
+        app:layout_constraintTop_toBottomOf="@+id/numCafeConLeche"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnMasCortado"
+        android:layout_width="@dimen/btnTamanio"
+        android:layout_height="@dimen/btnTamanio"
+        android:layout_marginEnd="80dp"
+        android:layout_marginRight="80dp"
+        android:text="@string/plusBtn"
+        app:layout_constraintBaseline_toBaselineOf="@+id/numCafeCortado"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:onClick="countPlusCortado"/>
+    <!-- end of Cafe cortado-->
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
