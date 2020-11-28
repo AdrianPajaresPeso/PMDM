@@ -26,29 +26,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-        switch (item.getItemId()) {
-            case R.id.shoppingCart:
-                sendToNextScreen();
-                return true;
-            case R.id.reset:
-                resetViews();
-                displayToast("Valores Reseteados");
-                return true;
-            default:
 
-        }
-        return super.onOptionsItemSelected(item);
 
-    }
-
+    /**
+     * Carga todos los datos para pasarlo al siguiente intent, no pasará si todos los contadores estan a 0
+     * */
     private void sendToNextScreen() {
 
         if(countSolo == 0 && countCortado == 0 && countConLeche == 0){
             displayToast("Selecciona un producto antes de continuar");
         }else{
             Intent intent = new Intent(this, SecondActivity.class);
+            intent.putExtra("EXTRA_SOLO", countSolo);
+            intent.putExtra("EXTRA_CORTADO", countCortado);
+            intent.putExtra("EXTRA_CONLECHE", countConLeche );
             startActivity(intent);
         }
 
@@ -69,16 +60,7 @@ public class MainActivity extends AppCompatActivity {
         displayCount(textView, 0);
     }
 
-    /*
-     * infla el menu de la barra de herramientas
-     * */
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        super.onCreateOptionsMenu(menu);
-        getMenuInflater().inflate(R.menu.main_menu, menu);
-        return true;
 
-    }
 
     /**
      * Metodo para mostrar un Toast en caso de que sea necesario
@@ -177,5 +159,35 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+
+    /**
+     * Acciones que lleva a cabo la app cuando se selecciona un item del menu
+     * */
+    @Override
+    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.shoppingCart:
+                sendToNextScreen();
+                return true;
+            case R.id.reset:
+                resetViews();
+                displayToast("Valores Reseteados");
+                return true;
+            default:
+
+        }
+        return super.onOptionsItemSelected(item);
+
+    }
+    /**
+     * infla el menu de la barra de herramientas
+     * */
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        super.onCreateOptionsMenu(menu);
+        getMenuInflater().inflate(R.menu.main_menu, menu);
+        return true;
+
+    }
 
 }
