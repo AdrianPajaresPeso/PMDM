@@ -42,7 +42,14 @@ public class SecondActivity extends AppCompatActivity {
      * */
     private String getCurrentTimeToString() {
         String currentTime;
-        return currentTime = String.valueOf(calendar.get(Calendar.HOUR_OF_DAY))+":"+calendar.get(Calendar.MINUTE);
+        String minutos ="";
+        if(calendar.get(Calendar.MINUTE)<10){
+            minutos = "0"+calendar.get(Calendar.MINUTE);
+        }else{
+            minutos = String.valueOf(calendar.get(Calendar.MINUTE));
+        }
+
+        return currentTime = String.valueOf(calendar.get(Calendar.HOUR_OF_DAY))+":"+minutos;
     }
 
     /**
@@ -115,6 +122,7 @@ public class SecondActivity extends AppCompatActivity {
     private void startNextActivity() {
         ckecRadioButtons();
 
+        checkDataInfo();
 
         Intent thirdActivity = new Intent(this, ThirdActivity.class);
         thirdActivity.putExtra("EXTRA_SOLO", countTipoCafes[0]);
@@ -125,6 +133,22 @@ public class SecondActivity extends AppCompatActivity {
         thirdActivity.putExtra("EXTRA_DELIVERYTIPE", deliveryTipe);
 
         startActivity(thirdActivity);
+
+    }
+
+    private void checkDataInfo() {
+        String minutos = "";
+        if(calendar.get(Calendar.MINUTE)<10){
+            minutos = "0"+calendar.get(Calendar.MINUTE);
+        }else{
+            minutos = String.valueOf(calendar.get(Calendar.MINUTE));
+        }
+        if (deliveryHour == null){
+            deliveryHour = calendar.get(Calendar.HOUR_OF_DAY)+":"+minutos;
+        }
+        if(deliveryDate == null){
+            deliveryDate = calendar.get(Calendar.DAY_OF_MONTH)+"/"+(calendar.get(Calendar.MONTH)+1)+"/"+calendar.get(Calendar.YEAR);
+        }
 
     }
 

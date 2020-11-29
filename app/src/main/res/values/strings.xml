@@ -8,4 +8,17 @@
     <string name="cafe_cortado">Cafe CORTADO</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="delivery_mode">Recoger en Local</string>
+    <string name="delivery_mode0">Reparto a domicilio</string>
+    <string name="delivery_mode_label">Modo de Entrega</string>
+    <string name="selec_hour_label">Selecciona Hora de entrega</string>
+    <string name="select_delivery_date_label">Selecciona Fecha de entrega</string>
+
+    <string-array name="phone_array">
+        <item>Casa</item>
+        <item>Trabajo</item>
+        <item>Móvil</item>
+        <item>Otro</item>
+    </string-array>
+
 </resources>

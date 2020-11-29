@@ -6,4 +6,86 @@
     android:layout_height="match_parent"
     tools:context=".ThirdActivity">
 
+    <!--Start name-->
+
+    <TextView
+        android:id="@+id/name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        app:layout_constraintBottom_toTopOf="@+id/address_label"
+        app:layout_constraintStart_toStartOf="@+id/address_label"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.537" />
+
+    <EditText
+        android:id="@+id/name_input"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        app:layout_constraintBaseline_toBaselineOf="@+id/name_label"
+        app:layout_constraintEnd_toEndOf="@+id/phoneNumber_input"
+        app:layout_constraintStart_toStartOf="@+id/phoneNumber_input" />
+
+    <!--end name-->
+    <!--Start Address-->
+
+    <TextView
+        android:id="@+id/address_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginLeft="24dp"
+        android:text="Direccion"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.219" />
+
+    <EditText
+        android:id="@+id/address_input"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+
+        app:layout_constraintBaseline_toBaselineOf="@+id/address_label"
+        app:layout_constraintEnd_toEndOf="@+id/phoneNumber_input"
+        app:layout_constraintStart_toStartOf="@+id/phoneNumber_input" />
+
+    <!--End address-->
+
+
+    <!--Start phone number-->
+
+
+    <EditText
+        android:id="@+id/phoneNumber_input"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:inputType="phone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phone_label"
+        app:layout_constraintTop_toBottomOf="@+id/address_input"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/phone_label"
+        android:layout_width="wrap_content"
+        android:layout_height="19dp"
+        android:text="Telefono: "
+        android:textSize="14sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/phoneNumber_input"
+        app:layout_constraintStart_toStartOf="@+id/address_label" />
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:id="@+id/number_tipo"
+        android:layout_width="161dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="@+id/phoneNumber_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/phoneNumber_input"
+        app:layout_constraintTop_toTopOf="@+id/phoneNumber_input" />
+    <!--end phone number-->
 </androidx.constraintlayout.widget.ConstraintLayout>

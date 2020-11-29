@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="25dp"
-        android:text="Modo de Entrega"
+        android:text="@string/delivery_mode_label"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -29,14 +29,14 @@
             android:id="@+id/home_delivery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Reparto a domicilio"
+            android:text="@string/delivery_mode0"
             android:checked="true"/>
 
         <RadioButton
             android:id="@+id/local_delivery"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Recoger en Local" />
+            android:text="@string/delivery_mode" />
     </RadioGroup>
 
     <!--Start delivery hour-->
@@ -45,7 +45,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="20dp"
-        android:text="Selecciona Hora de entrega"
+        android:text="@string/selec_hour_label"
         app:layout_constraintBottom_toTopOf="@+id/delivery_hour"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -56,8 +56,7 @@
         android:id="@+id/delivery_hour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -72,7 +71,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="75dp"
-        android:text="Selecciona Fecha de entrega"
+        android:text="@string/select_delivery_date_label"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
@@ -84,8 +83,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="TextView"
-        android:textSize="24dp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
