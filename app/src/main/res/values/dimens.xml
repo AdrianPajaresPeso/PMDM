@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <dimen name="btnTamanio">40dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="editText_dp">8dp</dimen>
+    <dimen name="textView_dp">24dp</dimen>
 </resources>
