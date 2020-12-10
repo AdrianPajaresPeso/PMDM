@@ -1,22 +1,39 @@
-SimpleCalc - Starter Code
-=========================
+DroidCafeOptionsUp - Solution Code
+==================================
 
-SimpleCalc is a simple calculator app, with a handful of problems. This
-app is used to explore the Android Studio debugger. It's also the basis
-for learning about unit testing in SimpleCalcTest.
+App that demonstrates images used as buttons and a floating action button
+to launch a second activity, which demonstrates EditText input controls
+and radio buttons. This version includes options in the options menu of
+the app bar, and the Up navigation button.
+
+Introduction
+------------
+
+This app created from the Basic Activity template lets a user tap an image
+to make a choice. The app displays a Toast message showing the user’s choice.
+The app also uses an intent so that when the user taps the floating
+action button, it launches the second Activity. The second Activity
+demonstrates EditText input controls and radio buttons. This version
+includes options for the app bar options menu, in which some of the
+options appear as icons in the app bar. It also includes the Up navigation
+button for the user to navigate back to the main activity.
 
 Pre-requisites
 --------------
 
-For this app you should be familiar with: 
-* Creating an Android Studio project, and working with EditText and Button views.
-* Building and running your app in Android Studio, in both an emulator and on a device.
-* Adding log statements and viewing the system log (logcat) in Android Monitor.
+You need to know:
+- How to open, build, and run apps with Android Studio.
+- Handling a Button click.
+- Editing an XML layout file.
+- Displaying a Toast message.
 
 Getting Started
 ---------------
 
-1. Download and open this sample in Android Studio.
+1. Download the code.
+2. Open the code in Android Studio.
+3. Run the app.
+
 
 License
 -------
