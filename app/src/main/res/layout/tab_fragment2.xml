@@ -14,13 +14,16 @@
   ~ limitations under the License.
   -->
 
-<resources>
-    <string name="app_name">Tab Experiment</string>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.tabexperiment.TabFragment2">
 
-    <string name="tab_1">These are the top stories:</string>
-    <string name="tab_2">Tech news you can use:</string>
-    <string name="tab_3">Cooking tips:</string>
-    <string name="tab_label1">Top Stories</string>
-    <string name="tab_label2">Tech News</string>
-    <string name="tab_label3">Cooking</string>
-</resources>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tab_2"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</RelativeLayout>

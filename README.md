@@ -1,31 +1,27 @@
-DroidCafeOptionsUp - Solution Code
-==================================
+TabExperiment - Solution Code
+=============================
 
-App that demonstrates images used as buttons and a floating action button
-to launch a second activity, which demonstrates EditText input controls
-and radio buttons. This version includes options in the options menu of
-the app bar, and the Up navigation button.
+App that demonstrates how to build navigation with tabs and swipe views.
 
 Introduction
 ------------
 
-This app created from the Basic Activity template lets a user tap an image
-to make a choice. The app displays a Toast message showing the user’s choice.
-The app also uses an intent so that when the user taps the floating
-action button, it launches the second Activity. The second Activity
-demonstrates EditText input controls and radio buttons. This version
-includes options for the app bar options menu, in which some of the
-options appear as icons in the app bar. It also includes the Up navigation
-button for the user to navigate back to the main activity.
+This app created from the Empty Activity template shows tabs for navigation
+and displays different content (different fragments) for each tab.
 
 Pre-requisites
 --------------
 
 You need to know:
 - How to open, build, and run apps with Android Studio.
-- Handling a Button click.
-- Editing an XML layout file.
+- Handling a button click.
 - Displaying a Toast message.
+- Creating and editing UI elements using the layout editor.
+- Entering XML code directly using the layout editor.
+- Accessing UI elements from Java code.
+- Adding menu items and icons to the options menu in the app bar.
+
+
 
 Getting Started
 ---------------
