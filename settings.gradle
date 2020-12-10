@@ -1,2 +1,1 @@
 include ':app'
-rootProject.name = "E.2.1.Pedidos"
