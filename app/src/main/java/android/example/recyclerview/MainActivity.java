@@ -13,15 +13,34 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.LinkedList;
+
 public class MainActivity extends AppCompatActivity {
+    private final LinkedList<String> mWordList = new LinkedList<String>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        chargeVars();
+        chargeFloatingButton();
+        addItem();
+
+    }
+
+    private void addItem() {
+        for (int i = 0; i<20; i++){
+            mWordList.addLast("Word "+i);
+        }
+    }
+
+    private void chargeVars() {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+    }
 
+    private void chargeFloatingButton() {
         FloatingActionButton fab = findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
