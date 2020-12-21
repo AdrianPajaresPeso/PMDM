@@ -11,13 +11,15 @@ import androidx.recyclerview.widget.RecyclerView;
 import java.util.LinkedList;
 
 public class WordListAdapter extends
-        RecyclerView.Adapter<WordListAdapter.WordViewHolder> {
+        RecyclerView.Adapter<WordListAdapter.WordViewHolder>
+        {
 
     private final LinkedList<String> mWordList;
     private final LayoutInflater mInflater;
 
-    class WordViewHolder extends RecyclerView.ViewHolder
-            {
+
+
+    class WordViewHolder extends RecyclerView.ViewHolder implements View.OnClickListener{
         public final TextView wordItemView;
         final WordListAdapter mAdapter;
 
@@ -26,9 +28,16 @@ public class WordListAdapter extends
             super(itemView);
             wordItemView = itemView.findViewById(R.id.word);
             this.mAdapter = adapter;
+            itemView.setOnClickListener(this);
         }
 
-
+        @Override
+        public void onClick(View v) {
+            int mPosition = getLayoutPosition();
+            String element = mWordList.get(mPosition);
+            mWordList.set(mPosition, "Clicado! "+element);
+            mAdapter.notifyDataSetChanged();
+        }
     }
 
     public WordListAdapter(Context context, LinkedList<String> wordList) {

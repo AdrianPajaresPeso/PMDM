@@ -8,14 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="89386910-e0d2-483b-991e-e4748efa6410" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/android/example/recyclerview/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/recyclerview/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/java/android/example/recyclerview/WordListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/android/example/recyclerview/WordListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_3_API_30]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[CQ30002MRT]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -138,10 +140,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1067" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1607937737973">
+    <state x="1067" y="247" key="#com.intellij.ide.util.MemberChooser" timestamp="1608535202188">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="1067" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1607937737973" />
+    <state x="1067" y="247" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1608535202188" />
     <state x="842" y="294" key="AndroidCreateResourceFileDialog" timestamp="1607937275981">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -150,6 +152,22 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1042" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1607936611765" />
+    <state width="1271" height="292" key="GridCell.Tab.0.bottom" timestamp="1608535627014">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1271" height="292" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1608535627014" />
+    <state width="1271" height="292" key="GridCell.Tab.0.center" timestamp="1608535627013">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1271" height="292" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1608535627013" />
+    <state width="1271" height="292" key="GridCell.Tab.0.left" timestamp="1608535627013">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1271" height="292" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1608535627013" />
+    <state width="1271" height="292" key="GridCell.Tab.0.right" timestamp="1608535627013">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1271" height="292" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1608535627013" />
     <state x="996" y="339" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1607938633574">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -158,5 +176,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="1290" y="527" key="extract.method.dialog/0.0.1920.1080@0.0.1920.1080" timestamp="1607936859273" />
+    <state x="925" y="239" width="672" height="678" key="search.everywhere.popup" timestamp="1608535779300">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="925" y="239" width="672" height="678" key="search.everywhere.popup/0.0.1920.1080@0.0.1920.1080" timestamp="1608535779300" />
   </component>
 </project>

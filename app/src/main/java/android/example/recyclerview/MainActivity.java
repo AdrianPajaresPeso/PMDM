@@ -7,6 +7,8 @@ import com.google.android.material.snackbar.Snackbar;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import android.view.View;
 
@@ -17,6 +19,8 @@ import java.util.LinkedList;
 
 public class MainActivity extends AppCompatActivity {
     private final LinkedList<String> mWordList = new LinkedList<String>();
+    private RecyclerView mRecyclerView;
+    private WordListAdapter mAdapter;
 
 
     @Override
@@ -38,6 +42,11 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        mRecyclerView = findViewById(R.id.reciclerView);
+        mAdapter = new WordListAdapter(this,mWordList);
+        mRecyclerView.setAdapter(mAdapter);
+        mRecyclerView.setLayoutManager(new LinearLayoutManager(this));
+
     }
 
     private void chargeFloatingButton() {
@@ -45,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                int wordListSize = mWordList.size();
+                mWordList.addLast("Word "+ wordListSize);
+                mRecyclerView.getAdapter().notifyItemInserted(wordListSize);
+
+                mRecyclerView.smoothScrollToPosition(wordListSize);
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
