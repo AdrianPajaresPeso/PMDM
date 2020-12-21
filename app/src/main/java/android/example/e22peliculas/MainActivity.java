@@ -13,8 +13,12 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class MainActivity extends AppCompatActivity {
 
+    List<Film> listaPelis = new ArrayList<Film>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +36,23 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    private void generateFilms(){
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+        listaPelis.add(new Film("Cadena Perpetua", getString(R.string.url_cadena_perpetua), "Drama"));
+    }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
