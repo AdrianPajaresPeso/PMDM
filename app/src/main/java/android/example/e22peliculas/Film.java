@@ -1,18 +1,24 @@
 package android.example.e22peliculas;
 
-public class Film {
+import java.io.Serializable;
+
+public class Film{
 
     private String name;
-    private String urlImg;
+    private String urlThumnail;
     private String type;
+    private String urlWeb;
 
     public Film(){}
 
-    public Film(String name, String urlImg, String type) {
+    public Film(String name, String urlImg, String type, String urlWeb) {
+
         this.name = name;
-        this.urlImg = urlImg;
+        this.urlThumnail = urlImg;
         this.type = type;
+        this.urlWeb = urlWeb;
     }
+
 
     public String getName() {
         return name;
@@ -23,11 +29,19 @@ public class Film {
     }
 
     public String getUrlImg() {
-        return urlImg;
+        return urlThumnail;
     }
 
     public void setUrlImg(String urlImg) {
-        this.urlImg = urlImg;
+        this.urlThumnail = urlImg;
+    }
+
+    public String getUrlWeb() {
+        return urlWeb;
+    }
+
+    public void setUrlWeb(String urlWeb) {
+        this.urlWeb = urlWeb;
     }
 
     public String getType() {
@@ -38,5 +52,13 @@ public class Film {
         this.type = type;
     }
 
-
+    @Override
+    public String toString() {
+        return "Film{" +
+                "name='" + name + '\'' +
+                ", urlThumnail='" + urlThumnail + '\'' +
+                ", type='" + type + '\'' +
+                ", urlWeb='" + urlWeb + '\'' +
+                '}';
+    }
 }

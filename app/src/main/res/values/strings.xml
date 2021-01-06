@@ -9,5 +9,13 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
-    <string name="url_cadena_perpetua">https://m.media-amazon.com/images/M/MV5BMDFkYTc0MGEtZmNhMC00ZDIzLWFmNTEtODM1ZmRlYWMwMWFmXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_UX182_CR0,0,182,268_AL_.jpg</string>
+    <string name="url_cadena_perpetua">https://www.imdb.com/title/tt0111161/</string>
+    <string name="matrixUrl">https://www.imdb.com/title/tt0133093/</string>
+    <string name="actionType">Action</string>
+    <string name="dramaType">Drama</string>
+    <string name="scifiType">SCI-FI</string>
+    <string name="comedyType">Comedy</string>
+    <string name="url_club_poetas_muertos">https://www.imdb.com/title/tt0097165/</string>
+    <string name="fantasyType">Fantasy</string>
+    <string name="crimeType">Crime</string>
 </resources>
