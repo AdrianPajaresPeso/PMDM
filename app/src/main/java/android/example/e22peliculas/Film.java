@@ -1,7 +1,5 @@
 package android.example.e22peliculas;
 
-import java.io.Serializable;
-
 public class Film{
 
     private String name;

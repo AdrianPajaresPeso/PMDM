@@ -58,8 +58,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
         int filmID = data.getIntExtra("EXTRA_FILM_ID", -1);
-        if (requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
-            Film film = new Film(data.getStringExtra("EXTRA_FILM_NAME"), data.getStringExtra("EXTRA_FILM_IMAGE"), data.getStringExtra("EXTRA_FILM_TYPE"), data.getStringExtra("EXTRA_FILM_WEB"));
+        if(data != null || resultCode != 0){
+            if (requestCode == REQUEST_CODE && resultCode == RESULT_OK) {
+                Film film = new Film(data.getStringExtra("EXTRA_FILM_NAME"), data.getStringExtra("EXTRA_FILM_IMAGE"), data.getStringExtra("EXTRA_FILM_TYPE"), data.getStringExtra("EXTRA_FILM_WEB"));
 
                 if(filmID != -1){
                     mFilmList.set(filmID, film);
@@ -70,7 +71,9 @@ public class MainActivity extends AppCompatActivity {
 
                 }
 
+            }
         }
+
     }
 
     private void generateDefaultFilms() {

@@ -4,13 +4,11 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -21,16 +19,14 @@ import com.google.android.material.snackbar.Snackbar;
 
 import org.jetbrains.annotations.NotNull;
 
-import java.io.Serializable;
-import java.util.HashMap;
 import java.util.LinkedList;
-import java.util.Map;
 
 public class FilmListAdapter extends RecyclerView.Adapter<FilmListAdapter.FilmViewHolder> {
     private final LinkedList<Film> filmList;
     private final LayoutInflater inflater;
-    private Context context;
     private final int REQUEST_CODE = 1;
+    private final Context context;
+
     /**
      * Constructor
      */
@@ -128,7 +124,6 @@ public class FilmListAdapter extends RecyclerView.Adapter<FilmListAdapter.FilmVi
             removeFilm(v, position, film);
             actividad.startActivityForResult(intent, REQUEST_CODE);
         }
-
 
 
         private void go2WebActivity(@NotNull View v, Uri web) {
