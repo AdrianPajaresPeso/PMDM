@@ -1,3 +1,21 @@
 <resources>
-    <string name="app_name">A.2.12</string>
+    <string name="app_name">E.2.2 Peliculas</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="url_cadena_perpetua">https://www.imdb.com/title/tt0111161/</string>
+    <string name="matrixUrl">https://www.imdb.com/title/tt0133093/</string>
+    <string name="actionType">Action</string>
+    <string name="dramaType">Drama</string>
+    <string name="scifiType">SCI-FI</string>
+    <string name="comedyType">Comedy</string>
+    <string name="url_club_poetas_muertos">https://www.imdb.com/title/tt0097165/</string>
+    <string name="fantasyType">Fantasy</string>
+    <string name="crimeType">Crime</string>
 </resources>
