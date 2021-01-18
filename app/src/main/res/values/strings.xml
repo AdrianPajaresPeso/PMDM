@@ -1,26 +1,21 @@
-<!--
-  ~ Copyright (C) 2018 Google Inc.
-  ~
-  ~ Licensed under the Apache License, Version 2.0 (the "License");
-  ~ you may not use this file except in compliance with the License.
-  ~ You may obtain a copy of the License at
-  ~
-  ~     http://www.apache.org/licenses/LICENSE-2.0
-  ~
-  ~ Unless required by applicable law or agreed to in writing, software
-  ~ distributed under the License is distributed on an "AS IS" BASIS,
-  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-  ~ See the License for the specific language governing permissions and
-  ~ limitations under the License.
-  -->
-
 <resources>
-    <string name="app_name">Tab Experiment</string>
+    <string name="app_name">E.2.2 Peliculas</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 
-    <string name="tab_1">These are the top stories:</string>
-    <string name="tab_2">Tech news you can use:</string>
-    <string name="tab_3">Cooking tips:</string>
-    <string name="tab_label1">Top Stories</string>
-    <string name="tab_label2">Tech News</string>
-    <string name="tab_label3">Cooking</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="url_cadena_perpetua">https://www.imdb.com/title/tt0111161/</string>
+    <string name="matrixUrl">https://www.imdb.com/title/tt0133093/</string>
+    <string name="actionType">Action</string>
+    <string name="dramaType">Drama</string>
+    <string name="scifiType">SCI-FI</string>
+    <string name="comedyType">Comedy</string>
+    <string name="url_club_poetas_muertos">https://www.imdb.com/title/tt0097165/</string>
+    <string name="fantasyType">Fantasy</string>
+    <string name="crimeType">Crime</string>
 </resources>
