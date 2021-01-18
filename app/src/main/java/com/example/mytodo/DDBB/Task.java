@@ -1,4 +1,4 @@
-package com.example.mytodo;
+package com.example.mytodo.DDBB;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
@@ -13,17 +13,16 @@ public class Task {
     @ColumnInfo(name = "Task")
     private String mTask;
 
-    @ColumnInfo(name="Description")
+    @ColumnInfo(name = "Description")
     private String mDesc;
 
     @ColumnInfo(name = "Finished")
     private Boolean mFinished;
 
-    public Task(int id, String mTask, String mDesc, Boolean mFinished) {
-        this.id = id;
-        this.mTask = mTask;
-        this.mDesc = mDesc;
-        this.mFinished = mFinished;
+    public Task(String task, String desc, boolean finished) {
+        this.mTask = task;
+        this.mDesc = desc;
+        this.mFinished = finished;
     }
 
     public int getId() {

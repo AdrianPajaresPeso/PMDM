@@ -9,10 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyToDo">
+        <activity android:name=".AddTaskActivity"></activity>
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
-            android:theme="@style/Theme.MyToDo.NoActionBar">
+            android:theme="@style/Theme.MyToDo">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
