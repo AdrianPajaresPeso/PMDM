@@ -1,4 +1,4 @@
-package android.example.a212;
+package com.example.mytodo;
 
 import org.junit.Test;
 
