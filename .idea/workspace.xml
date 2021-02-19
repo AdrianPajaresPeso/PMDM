@@ -6,26 +6,13 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6a9fef56-e5cc-4589-b8b4-ee1a36a3f859" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/MainActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/NewWordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/NewWordActivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/WordListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/WordListAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/Word.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/Word.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordRoomDatabase.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordRoomDatabase.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordViewModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/a33/model/WordViewModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_word.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_word.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-    </list>
+    <list default="true" id="6a9fef56-e5cc-4589-b8b4-ee1a36a3f859" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[CQ30002MRT]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -172,22 +159,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="138" key="FileChooserDialogImpl/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613695679775" />
-    <state width="1322" height="191" key="GridCell.Tab.0.bottom" timestamp="1613702440177">
+    <state width="1322" height="191" key="GridCell.Tab.0.bottom" timestamp="1613703083539">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="191" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613702440177" />
-    <state width="1322" height="191" key="GridCell.Tab.0.center" timestamp="1613702440176">
+    <state width="1322" height="191" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613703083539" />
+    <state width="1322" height="191" key="GridCell.Tab.0.center" timestamp="1613703083539">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="191" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613702440176" />
-    <state width="1322" height="191" key="GridCell.Tab.0.left" timestamp="1613702440176">
+    <state width="1322" height="191" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613703083539" />
+    <state width="1322" height="191" key="GridCell.Tab.0.left" timestamp="1613703083539">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="191" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613702440176" />
-    <state width="1322" height="191" key="GridCell.Tab.0.right" timestamp="1613702440177">
+    <state width="1322" height="191" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613703083539" />
+    <state width="1322" height="191" key="GridCell.Tab.0.right" timestamp="1613703083539">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1322" height="191" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613702440177" />
+    <state width="1322" height="191" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613703083539" />
     <state x="184" y="28" key="SettingsEditor" timestamp="1613696920505">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
