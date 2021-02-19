@@ -1,6 +1,6 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.E22Peliculas" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+    <style name="Theme.A33" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
         <item name="colorPrimary">@color/purple_500</item>
         <item name="colorPrimaryVariant">@color/purple_700</item>
@@ -14,18 +14,34 @@
         <!-- Customize your theme here. -->
     </style>
 
-    <style name="Theme.E22Peliculas.NoActionBar">
+    <style name="Theme.A33.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
 
-    <style name="Theme.E22Peliculas.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
-
-    <style name="Theme.E22Peliculas.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
-    <style name="word_title">
+    <style name="text_view_style">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">wrap_content</item>
-        <item name="android:textSize">24sp</item>
-        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">
+            @android:style/TextAppearance.Large</item>
+        <item name="android:background">@color/colorPrimaryLight</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
     </style>
+
+    <style name="Theme.A33.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.A33.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="button_style" parent="android:style/Widget.Material.Button">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/colorPrimaryDark</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Large</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:textColor">@color/colorTextPrimary</item>
+    </style>
+
 </resources>
