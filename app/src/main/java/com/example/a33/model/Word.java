@@ -1,4 +1,4 @@
-package com.example.a33;
+package com.example.a33.model;
 
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
