@@ -1,11 +1,9 @@
-package com.example.a33.model;
+package com.example.a41;
 
 import androidx.annotation.NonNull;
 import androidx.room.ColumnInfo;
 import androidx.room.Entity;
 import androidx.room.PrimaryKey;
-
-
 
 @Entity(tableName = "word_table")
 public class Word {
@@ -13,10 +11,13 @@ public class Word {
     @PrimaryKey
     @NonNull
     @ColumnInfo(name = "word")
-    private String mWord;
+    private final String mWord;
 
-    public Word(@NonNull String word) {this.mWord = word;}
+    public Word(@NonNull String mWord) {
+        this.mWord = mWord;
+    }
 
-    public String getWord(){return this.mWord;}
+    public String getWord() {
+        return mWord;
+    }
 }
-
