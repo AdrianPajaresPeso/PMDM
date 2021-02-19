@@ -10,5 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         style="@style/text_view_style"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
         tools:text="placeholder text" />
 </LinearLayout>
