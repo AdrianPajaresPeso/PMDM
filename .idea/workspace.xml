@@ -1,44 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="eee35e17-4918-4e3e-a57b-0dfb8ecd7e73" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_dc_volley_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/app/MyBook.app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/app/MyBook.app.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/a41/ExampleInstrumentedTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/NewWordActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/Word.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/WordDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/WordListAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/WordRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/WordRoomDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/WordViewHolder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/a41/WordViewModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/mybook/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/example/mybook/MainActivity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_word.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/recyclerview_item.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/dimens.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/a41/ExampleUnitTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[CQ30002MRT]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -67,6 +60,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager">
@@ -77,7 +71,7 @@
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
       <module name="MyBook.app" />
       <option name="DEPLOY" value="true" />
       <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
@@ -149,25 +143,37 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="146" y="93" key="#com.intellij.ide.util.MemberChooser" timestamp="1613855494310">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="146" y="93" key="#com.intellij.ide.util.MemberChooser/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613855494310" />
+    <state x="527" y="173" key="AndroidCreateXmlResourceDialog" timestamp="1613851537075">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="527" y="173" key="AndroidCreateXmlResourceDialog/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613851537075" />
     <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1613763687074">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="138" key="FileChooserDialogImpl/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613763687074" />
-    <state width="1323" height="61" key="GridCell.Tab.0.bottom" timestamp="1613761929936">
+    <state width="636" height="190" key="GridCell.Tab.0.bottom" timestamp="1613855904703">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613761929936" />
-    <state width="1323" height="61" key="GridCell.Tab.0.center" timestamp="1613761929935">
+    <state width="636" height="190" key="GridCell.Tab.0.bottom/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613855904703" />
+    <state width="636" height="190" key="GridCell.Tab.0.center" timestamp="1613855904702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613761929935" />
-    <state width="1323" height="61" key="GridCell.Tab.0.left" timestamp="1613761929935">
+    <state width="636" height="190" key="GridCell.Tab.0.center/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613855904702" />
+    <state width="636" height="190" key="GridCell.Tab.0.left" timestamp="1613855904702">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613761929935" />
-    <state width="1323" height="61" key="GridCell.Tab.0.right" timestamp="1613761929935">
+    <state width="636" height="190" key="GridCell.Tab.0.left/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613855904702" />
+    <state width="636" height="190" key="GridCell.Tab.0.right" timestamp="1613855904703">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="61" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613761929935" />
+    <state width="636" height="190" key="GridCell.Tab.0.right/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613855904703" />
+    <state x="49" y="120" width="585" height="534" key="find.popup" timestamp="1613855586442">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="49" y="120" width="585" height="534" key="find.popup/1366.0.1366.768/0.0.1366.768@0.0.1366.768" timestamp="1613855586442" />
   </component>
 </project>
